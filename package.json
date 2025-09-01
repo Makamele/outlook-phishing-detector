@@ -1,0 +1,14 @@
+{
+  "name": "outlook-phishing-detector",
+  "version": "1.0.0",
+  "description": "Phishing detection add-in for Outlook",
+  "main": "src/taskpane/taskpane.js",
+  "scripts": {
+    "start": "npx serve src -s -p 3000 --ssl-cert ./ssl/localhost.crt --ssl-key ./ssl/localhost.key",
+    "dev": "npx serve src -s -p 3000",
+    "build": "echo 'Build completed'"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
